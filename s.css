@@ -13,3 +13,24 @@
     text-overflow: ellipsis;
     margin-bottom: 50px;
 }
+.container , .inner{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+}
+.inner{
+    border: 3px solid blue;
+    background-color: brown;
+    /* transform: scale(0.75); */
+    /* transform: rotate(180deg); */
+    /* transform: rotate3d(0deg); */
+}
+.inner:hover{
+    transform: rotate(45deg
+    );
+}
+.container{
+    border: 2px solid red;
+    background-color: aqua;
+}
